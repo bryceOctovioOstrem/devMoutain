@@ -343,6 +343,7 @@ function sorter(sampleArray){
       sorted = false;
     }
   }
+  return sorted;
 }
 
 ////////////////// PROBLEM 22 ////////////////////
@@ -376,4 +377,4 @@ let bathroomScope = ['duck', 'rubberDuck']
 let bathtubScope = ['duck','sailorDuck', 'rubberDuck']
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ['duck', realDuck]
+let pondScope = ['duck', 'realDuck']
